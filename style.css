@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+section.homepage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F037A5;
+
+}
+
+nav.homepage-menu {
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepage-logo {
+    margin-left: 175px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-spotify-custom {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+ul.homepage-links {
+    list-style-type: none;
+    display: flex;
+    margin-right: 150px;
+}
+
+ul.homepage-links li {
+    padding: 10px;
+}
+
+ul.homepage-links a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.homepage-links a:hover {
+    color: #1DB954;
+    cursor: pointer;
+}
+
+.homepage-menu-spacer {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.green-hl {
+    background: #1DB954;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 1.75px;
+    font-size: 12px;
+    padding: 0px 24px;
+}
+
+.green-hl:hover {
+    background: #17db5c;
+    cursor: pointer;
+}
+
+
